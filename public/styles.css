@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.phone {
+    height: 1000px;
+    width: 500px;
+    background-color: black;
+    margin: 150px auto;
+    border-radius: 60px;
+}
+
+
+.row1 {
+    --bs-gutter-x: 0;
+    height: 20%;
+}
+
+.row2 {
+    --bs-gutter-x: 0;
+    height: 20%;
+}
+
+.row3 {
+    --bs-gutter-x: 0;
+    height: 20%;
+}
+
+.row4 {
+    --bs-gutter-x: 0;
+    height: 20%;
+}
+
+.row5 {
+    --bs-gutter-x: 0;
+    height: 20%;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.input-area{
+    padding-top: 0px;
+    height:100px;
+    position: relative;
+    top: 250px;
+}
+
+.input-area h2{
+    text-align: right;
+    font-size: 100px;
+    padding-right: 50px;
+    bottom: 0px;
+    height: 100%;
+    position: relative;
+    color: white;
+}
+
+.buttons-area {
+    /* background-color: rgb(212, 212, 212); */
+    height: 600px;
+    border-radius: 60px;
+    position: relative;
+    top: 250px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+/* BUTTONS */
+.btn-circle.btn-xl {
+    width: 100px;
+    height: 100px;
+    padding: 13px 18px;
+    border-radius: 60px;
+    text-align: center;
+    border: 0px;
+}
+
+.btn-circle.btn-0 {
+    width: 220px;
+    height: 100px;
+    padding: 13px 18px;
+    border-radius: 60px;
+    text-align: center;
+    border: 0px;
+}
+
+.light-grey {
+    margin: 10px;
+    background-color: #9F9F9F;
+}
+
+.light-grey p{
+    font-size: 2.5rem;
+    font-weight: 550;
+    color: black;
+}
+
+.numbs {
+    font-size: 4rem;
+    margin: 10px;
+    background-color: #313131;
+}
+
+.operators {
+    font-size: 4rem;
+    margin: 10px;
+    background-color: #F69906;
+}
+
+p {
+    color: white;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
